@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+.leaflet-container {
+  height: 100vh;
+  width: 100wh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marker-component-icon {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marker-component-icon:after {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "🏠";
+  font-size: 20px;
 }
