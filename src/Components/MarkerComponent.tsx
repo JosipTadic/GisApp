@@ -6,9 +6,7 @@ interface MarkerComponents {
     id: string,
     header: string,
     firstText: string,
-    secondText: string,
-    thirdText: string,
-    fourthText?: string,
+    secondText?: string,
     lat: number,
     lon: number
 }
@@ -26,8 +24,6 @@ const icons : MarkerComponents[] = [
         header: "header",
         firstText: "firstText1",
         secondText: "secondText",
-        thirdText: "thirdText",
-        fourthText: "fourthText",
         lat: 44.92759, 
         lon: 13.80362
     },
@@ -36,8 +32,6 @@ const icons : MarkerComponents[] = [
         header: "header",
         firstText: "firstText2",
         secondText: "secondText",
-        thirdText: "thirdText",
-        fourthText: "fourthText",
         lat: 44.9274, 
         lon: 13.8036
     },
@@ -46,27 +40,13 @@ const icons : MarkerComponents[] = [
         header: "header",
         firstText: "firstText3",
         secondText: "secondText",
-        thirdText: "thirdText",
-        fourthText: "fourthText",
         lat: 44.9279, 
         lon: 13.803619
     }
 ];
-const multiPolyline = [
-    [
-      [51.5, -0.1],
-      [51.5, -0.12],
-      [51.52, -0.12],
-    ],
-    [
-      [51.5, -0.05],
-      [51.5, -0.06],
-      [51.52, -0.06],
-    ],
-  ]
+
 const MarkerComponent = () => {
-    console.log(multiPolyline)
-    console.log(icons)
+
     return(
         <>
         {icons.map((icon, id) => 
@@ -74,8 +54,6 @@ const MarkerComponent = () => {
                 <Popup>
                 <h4>{icon.header}</h4>
                 <strong>{icon.firstText} testText1 {icon.secondText}</strong><br />
-                <p><strong>{icon.thirdText}</strong></p><br />
-                <em>{icon.fourthText}</em>
                 </Popup>
             </Marker>
         )}
