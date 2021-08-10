@@ -15,3 +15,7 @@
   content: "🏠";
   font-size: 20px;
 }
+
+.sr-only {
+  display: none;
+}

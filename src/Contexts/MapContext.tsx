@@ -53,7 +53,7 @@ export const MapProvider: FC = ({ children }) => {
       ],
     },
   ]);
-  const [multiPolygones, /*setmultiPolygones*/] = useState<ImultiPoly[]>([
+  const [multiPolygones /*setmultiPolygones*/] = useState<ImultiPoly[]>([
     {
       id: "1",
       multiPolyline: [
@@ -90,3 +90,7 @@ export const MapProvider: FC = ({ children }) => {
 export const useMapContext = () => {
   return useContext(MapContext);
 };
+
+/*
+
+*/
