@@ -7,17 +7,31 @@ import {
   FeatureGroup,
   LayersControl,
 } from "react-leaflet";
-import MarkerComponent from "./MarkerComponent";
 import { EditControl } from "react-leaflet-draw";
 import "leaflet-draw";
+import domtoimage from "dom-to-image";
+import fileDownload from "js-file-download";
 
 const MapComponent = () => {
   const position: L.LatLngExpression = [44.9275, 13.80361];
   const zoom: number = 14;
 
+  var handleSaveClick = (idOfChart: string) => {
+    domtoimage // @ts-ignore
+      .toBlob(document.getElementById(idOfChart)) // @ts-ignore
+      .then(function (blob) {
+        fileDownload(blob, "dom-to-image.png");
+      });
+  };
+
   return (
     <>
-      <MapContainer center={position} zoom={zoom} scrollWheelZoom={false}>
+      <MapContainer
+        center={position}
+        zoom={zoom}
+        scrollWheelZoom={false}
+        id="blob1"
+      >
         <LayersControl position="topright">
           <LayersControl.BaseLayer checked name="OpenStreetMap Classic">
             <TileLayer
@@ -76,13 +90,15 @@ const MapComponent = () => {
           </LayersControl.BaseLayer>
         </LayersControl>
 
-        <MarkerComponent />
         <FeatureGroup>
           <EditControl position="topleft" draw={{}} />
         </FeatureGroup>
       </MapContainer>
+
+      <button onClick={() => handleSaveClick("blob1")}>Download</button>
     </>
   );
 };
 
 export default MapComponent;
+//<MarkerComponent />
