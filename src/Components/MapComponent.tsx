@@ -1,6 +1,7 @@
 import React from "react";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet-draw/dist/leaflet.draw.css";
 import {
   MapContainer,
   TileLayer,
@@ -11,16 +12,29 @@ import { EditControl } from "react-leaflet-draw";
 import "leaflet-draw";
 import domtoimage from "dom-to-image";
 import fileDownload from "js-file-download";
+import MarkerComponent from "./MarkerComponent";
 
 const MapComponent = () => {
   const position: L.LatLngExpression = [44.9275, 13.80361];
   const zoom: number = 14;
 
+  // @ts-ignore
+  delete L.Icon.Default.prototype._getIconUrl;
+
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-icon.png",
+    iconUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-icon.png",
+    shadowUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png",
+  });
+
   var handleSaveClick = (idOfChart: string) => {
     domtoimage // @ts-ignore
       .toBlob(document.getElementById(idOfChart)) // @ts-ignore
       .then(function (blob) {
-        fileDownload(blob, "dom-to-image.png");
+        fileDownload(blob, "fotoMap.png");
       });
   };
 
@@ -93,6 +107,8 @@ const MapComponent = () => {
         <FeatureGroup>
           <EditControl position="topleft" draw={{}} />
         </FeatureGroup>
+
+        <MarkerComponent />
       </MapContainer>
 
       <button onClick={() => handleSaveClick("blob1")}>Download</button>
