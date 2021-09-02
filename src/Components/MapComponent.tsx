@@ -43,7 +43,7 @@ const MapComponent = () => {
       <MapContainer
         center={position}
         zoom={zoom}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
         id="blob1"
       >
         <LayersControl position="topright">
