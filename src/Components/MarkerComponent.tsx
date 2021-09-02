@@ -27,7 +27,7 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "24 - 48 sati",
     translate: "DA - DA",
-    lon: 15.9791638,
+    lon: 15.9809638,
     lat: 45.8291116,
   },
   {
@@ -41,21 +41,21 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "24 sata",
     translate: "DA - DA",
-    lon: 15.9783574,
-    lat: 45.8314145,
+    lon: 15.9806294,
+    lat: 45.8315145,
   },
   {
     id: "3",
-    header: "DOM ZDRAVLJA ZAGREBA?KE ŽUPANIJE,Samobor",
+    header: "DOM ZDRAVLJA ZAGREBAČKE ŽUPANIJE,Samobor",
     address:
-      "stažnje parkiralište Autobusnog kolodvora Samobor, 151. samoborske brigade HV",
+      "Stažnje parkiralište Autobusnog kolodvora Samobor, 151. samoborske brigade HV",
     contact: "01 3330 751",
     price: "",
     openHours: "Prije dolaska potrebno je dogovoriti termin",
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 15.7144225,
+    lon: 15.7159625,
     lat: 45.808274,
   },
   {
@@ -69,8 +69,8 @@ const icons: MarkerComponents[] = [
     driveIn: "NE",
     waitTime: "24 - 48 sati",
     translate: "DA - DA",
-    lon: 15.9779834,
-    lat: 45.8297653,
+    lon: 15.9806834,
+    lat: 45.8304653,
   },
   {
     id: "5",
@@ -83,8 +83,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "U roku 5 sati, ili isti dan (i vikendom)",
     translate: "DA - DA",
-    lon: 18.0213957,
-    lat: 45.1579984,
+    lon: 18.0262757,
+    lat: 45.1562584,
   },
   {
     id: "6",
@@ -96,8 +96,8 @@ const icons: MarkerComponents[] = [
     driveIn: "NE",
     waitTime: "Do 4 ili do 24 sata",
     translate: "DA - NE",
-    lon: 18.074256,
-    lat: 42.6479702,
+    lon: 18.0764078,
+    lat: 42.648001,
   },
   {
     id: "7",
@@ -110,8 +110,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "Od 12 do 24 sata",
     translate: "DA - NE",
-    lon: 18.0736701,
-    lat: 42.6477382,
+    lon: 18.0757673,
+    lat: 42.647708,
   },
   {
     id: "8",
@@ -123,7 +123,7 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 18.0919339,
+    lon: 18.0940339,
     lat: 42.6474745,
   },
   {
@@ -137,8 +137,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 17.9629112,
-    lat: 42.6626211,
+    lon: 18.070536,
+    lat: 42.662093,
   },
   {
     id: "10",
@@ -152,21 +152,21 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 17.1350352,
+    lon: 17.1367352,
     lat: 42.9496227,
   },
   {
     id: "11",
     header: "DOM ZDRAVLJA KORČULA - OREBIĆ	",
-    address: "hotel Orsan (Šetalište kralja Petra Krešimira IV 29",
+    address: "hotel Orsan (Šetalište kralja Petra Krešimira IV 29)",
     contact: "099 5298 734, amb.za.covid@dom-zdravlja-korcula.hr",
     price: "",
     openHours: "Ponedjeljkom, srijedom i petkom od 12 sati",
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 17.1350352,
-    lat: 42.9496227,
+    lon: 17.157319,
+    lat: 42.9749227,
   },
   {
     id: "12",
@@ -178,7 +178,7 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata",
     translate: "DA - NE",
-    lon: 13.8472193,
+    lon: 13.8491123,
     lat: 44.8615053,
   },
   {
@@ -191,8 +191,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 13.8482434,
-    lat: 44.8672438,
+    lon: 13.8504412,
+    lat: 44.8672938,
   },
 
   {
@@ -205,7 +205,7 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 14.1163504,
+    lon: 14.1185004,
     lat: 45.1001159,
   },
   {
@@ -218,8 +218,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 13.638483,
-    lat: 45.0807796,
+    lon: 13.640683,
+    lat: 45.0809496,
   },
   {
     id: "16",
@@ -231,7 +231,7 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 13.9383292,
+    lon: 13.9417292,
     lat: 45.2389894,
   },
   {
@@ -244,8 +244,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 13.6031907,
-    lat: 45.2270291,
+    lon: 13.6057907,
+    lat: 45.2275291,
   },
   {
     id: "18",
@@ -257,8 +257,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 13.9612176,
-    lat: 45.4087649,
+    lon: 13.9635076,
+    lat: 45.4087849,
   },
   {
     id: "19",
@@ -271,8 +271,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 13.5225194,
-    lat: 45.4327169,
+    lon: 13.5246194,
+    lat: 45.4328169,
   },
   {
     id: "20",
@@ -286,8 +286,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "24 sata",
     translate: "",
-    lon: 15.3728271,
-    lat: 44.5477105,
+    lon: 15.3748271,
+    lat: 44.5479505,
   },
   {
     id: "21",
@@ -300,8 +300,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 12 sati",
     translate: "DA - NE",
-    lon: 16.4317117,
-    lat: 46.3941438,
+    lon: 16.4320017,
+    lat: 46.3950611,
   },
   {
     id: "22",
@@ -313,8 +313,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata	",
     translate: "DA - NE",
-    lon: 18.6854905,
-    lat: 45.5582997,
+    lon: 18.6876505,
+    lat: 45.5583397,
   },
   {
     id: "23",
@@ -326,8 +326,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata",
     translate: "DA - NE",
-    lon: 18.7115154,
-    lat: 45.5578995,
+    lon: 18.7145154,
+    lat: 45.5577195,
   },
   {
     id: "24",
@@ -339,7 +339,7 @@ const icons: MarkerComponents[] = [
     driveIn: "NE",
     waitTime: "7 - 9 sati",
     translate: "DA - NE",
-    lon: 17.6971243,
+    lon: 17.6991243,
     lat: 45.34407,
   },
   {
@@ -353,8 +353,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "48 sati",
     translate: "",
-    lon: 17.1877505,
-    lat: 45.4328854,
+    lon: 17.1898705,
+    lat: 45.4323854,
   },
   {
     id: "26",
@@ -368,8 +368,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "do 24 sata",
     translate: "DA - NE",
-    lon: 14.4235515,
-    lat: 45.3321212,
+    lon: 14.4255815,
+    lat: 45.3322612,
   },
   {
     id: "27",
@@ -382,8 +382,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati",
     translate: "",
-    lon: 14.4106737,
-    lat: 44.5489826,
+    lon: 14.4638737,
+    lat: 44.5332996,
   },
   {
     id: "28",
@@ -395,8 +395,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati",
     translate: "",
-    lon: 14.4063817,
-    lat: 44.9622287,
+    lon: 14.4085817,
+    lat: 44.9624287,
   },
   {
     id: "29",
@@ -408,8 +408,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati",
     translate: "",
-    lon: 14.7554783,
-    lat: 44.7633748,
+    lon: 14.7578583,
+    lat: 44.7638748,
   },
   {
     id: "30",
@@ -422,8 +422,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati",
     translate: "",
-    lon: 14.5699248,
-    lat: 45.0291566,
+    lon: 14.5698248,
+    lat: 45.0286566,
   },
   {
     id: "31",
@@ -436,8 +436,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati",
     translate: "",
-    lon: 14.6924478,
-    lat: 45.175609,
+    lon: 14.694578,
+    lat: 45.175701,
   },
 
   {
@@ -451,8 +451,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati	",
     translate: "",
-    lon: 14.3007952,
-    lat: 45.3341336,
+    lon: 14.3029252,
+    lat: 45.3341836,
   },
   {
     id: "33",
@@ -464,8 +464,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 48 sati	",
     translate: "",
-    lon: 14.7994221,
-    lat: 45.3987305,
+    lon: 14.8040221,
+    lat: 45.3981705,
   },
   {
     id: "34",
@@ -478,8 +478,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata	",
     translate: "",
-    lon: 14.4263066,
-    lat: 45.3310368,
+    lon: 14.4265066,
+    lat: 45.3320368,
   },
   {
     id: "35",
@@ -491,7 +491,7 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 16.3723472,
+    lon: 16.3745472,
     lat: 45.4840339,
   },
   {
@@ -504,8 +504,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 12 sati",
     translate: "DA - NE",
-    lon: 16.4557709,
-    lat: 43.5037592,
+    lon: 16.4579709,
+    lat: 43.5041092,
   },
   {
     id: "37",
@@ -519,8 +519,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "24 do 48 sati",
     translate: "DA - NE",
-    lon: 16.4477388,
-    lat: 43.5110528,
+    lon: 16.4500388,
+    lat: 43.5111228,
   },
   {
     id: "38",
@@ -533,8 +533,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "DA - NE",
-    lon: 16.2968364,
-    lat: 43.5367044,
+    lon: 16.2989364,
+    lat: 43.5367144,
   },
   {
     id: "39",
@@ -546,8 +546,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 17.0166001,
-    lat: 43.291136,
+    lon: 17.0218101,
+    lat: 43.292536,
   },
   {
     id: "40",
@@ -560,8 +560,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "	",
     translate: "",
-    lon: 16.6507914,
-    lat: 43.7044564,
+    lon: 16.6531991,
+    lat: 43.7033111,
   },
   {
     id: "41",
@@ -569,13 +569,13 @@ const icons: MarkerComponents[] = [
     address: "Trg Hrpina 1 21300 Makarska",
     contact:
       "https://makarska.hr/novosti/svi-punktovi-za-testiranje-na-covid-19-u-makarskoj 099 747 40 58",
-    price: "650,00 Kn (200,00Kn) ",
+    price: "200,00 Kn (650,00Kn) ",
     openHours: "Svakim danom od 8:00 - 14:00 i 16:00 - 22:00",
     driveIn: "",
     waitTime: "24 sata - 20 min",
     translate: "DA - NE",
-    lon: 17.0177767,
-    lat: 43.2942744,
+    lon: 17.0198067,
+    lat: 43.2944144,
   },
   {
     id: "42",
@@ -583,12 +583,12 @@ const icons: MarkerComponents[] = [
     address: "Lička 21, 21300 Makarska",
     contact:
       "https://makarska.hr/novosti/svi-punktovi-za-testiranje-na-covid-19-u-makarskoj, 099 747 40 58",
-    price: "650,00 Kn (200,00Kn)",
+    price: "200,00 Kn (650,00Kn)",
     openHours: "Svakim danom od 8:00 - 14:00",
     driveIn: "",
     waitTime: "24 sata - 20 min",
     translate: "DA",
-    lon: 17.0081223,
+    lon: 17.0101003,
     lat: 43.3049614,
   },
   {
@@ -601,8 +601,8 @@ const icons: MarkerComponents[] = [
     driveIn: "NE",
     waitTime: "48 sati",
     translate: "DA - NE",
-    lon: 15.8972773,
-    lat: 43.7337456,
+    lon: 15.9015773,
+    lat: 43.7331456,
   },
   {
     id: "44",
@@ -614,7 +614,7 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 15.8978866,
+    lon: 15.8989996,
     lat: 43.73208,
   },
   {
@@ -627,8 +627,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 16.2208109,
-    lat: 44.057777,
+    lon: 16.2148109,
+    lat: 44.052377,
   },
   {
     id: "46",
@@ -641,8 +641,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "do 24 sata",
     translate: "DA - NE",
-    lon: 16.3267122,
-    lat: 46.3032425,
+    lon: 16.3285122,
+    lat: 46.3026425,
   },
   {
     id: "47",
@@ -654,8 +654,8 @@ const icons: MarkerComponents[] = [
     driveIn: "DA",
     waitTime: "",
     translate: "",
-    lon: 16.3592519,
-    lat: 46.3170127,
+    lon: 16.3612519,
+    lat: 46.3165127,
   },
   {
     id: "48",
@@ -668,8 +668,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata",
     translate: "",
-    lon: 17.3873139,
-    lat: 45.8289513,
+    lon: 17.3901139,
+    lat: 45.8286413,
   },
   {
     id: "49",
@@ -681,8 +681,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 18.816007,
-    lat: 45.2918093,
+    lon: 18.817807,
+    lat: 45.2921093,
   },
   {
     id: "50",
@@ -694,8 +694,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "do 24 sata",
     translate: "DA - NE",
-    lon: 15.233468,
-    lat: 44.1079821,
+    lon: 15.235268,
+    lat: 44.1080821,
   },
   {
     id: "51",
@@ -707,7 +707,7 @@ const icons: MarkerComponents[] = [
     driveIn: "NE",
     waitTime: "24 - 48 sati",
     translate: "DA - NE",
-    lon: 15.2323953,
+    lon: 15.2345953,
     lat: 44.107354,
   },
   {
@@ -721,8 +721,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 15.7856041,
-    lat: 45.8697757,
+    lon: 15.7876041,
+    lat: 45.8698757,
   },
   {
     id: "53",
@@ -736,8 +736,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "DA - DA",
-    lon: 15.8137076,
-    lat: 45.7845196,
+    lon: 16.3872076,
+    lat: 45.7067196,
   },
   {
     id: "54",
@@ -750,8 +750,8 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "DA - DA",
-    lon: 16.2290599,
-    lat: 45.810799,
+    lon: 16.2310599,
+    lat: 45.810805,
   },
   {
     id: "55",
@@ -763,7 +763,7 @@ const icons: MarkerComponents[] = [
     driveIn: "",
     waitTime: "",
     translate: "",
-    lon: 16.06363,
+    lon: 16.06593,
     lat: 45.7137423,
   },
 ];
@@ -786,32 +786,32 @@ const MarkerComponent = () => {
           title={icon.header}
         >
           <Popup>
-            <h1>{icon.header}</h1>
-            <h2>{icon.address}</h2>
+            <h1>🏬 {icon.header}</h1>
+            <h2>📌 {icon.address}</h2>
             {icon.contact ? (
               <h3>
-                Kontakt: <strong>{icon.contact}</strong>
+                📞 Kontakt: <strong>{icon.contact}</strong>
               </h3>
             ) : (
               <div></div>
             )}
-            {icon.price ? <h4>Cijena: {icon.price}</h4> : <div></div>}
+            {icon.price ? <h4>🔖 Cijena: {icon.price}</h4> : <div></div>}
             {icon.openHours ? (
-              <h4>Radno vrijeme: {icon.openHours}</h4>
+              <h4>⌚ Radno vrijeme: {icon.openHours}</h4>
             ) : (
               <div></div>
             )}
             {icon.waitTime ? (
-              <h4>Vrijeme čekanja: {icon.waitTime}</h4>
+              <h4>⏱ Vrijeme čekanja: {icon.waitTime}</h4>
             ) : (
               <div></div>
             )}
             {icon.translate ? (
-              <h4>Prijevod(plaćanje): {icon.translate}</h4>
+              <h4>📝 Prijevod(plaćanje): {icon.translate}</h4>
             ) : (
               <div></div>
             )}
-            {icon.driveIn ? <h4>Drive in: {icon.driveIn}</h4> : <div></div>}
+            {icon.driveIn ? <h4>🚘 Drive in: {icon.driveIn}</h4> : <div></div>}
             <br />
           </Popup>
         </Marker>

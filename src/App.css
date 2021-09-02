@@ -15,7 +15,43 @@
   content: "🏥";
   font-size: 20px;
 }
+.leaflet-popup-content-wrapper h1 {
+  font-size: 2.8vh;
+}
+.leaflet-popup-content-wrapper h2 {
+  font-size: 2.2vh;
+}
+.leaflet-popup-content-wrapper h3 {
+  font-size: 2vh;
+}
+.leaflet-popup-content-wrapper h4 {
+  font-size: 1.9vh;
+}
+.leaflet-popup-content {
+  min-width: 22rem;
+  text-align: center;
+}
 
+@media only screen and (max-width: 768px) {
+  .leaflet-popup-content-wrapper h1 {
+    font-size: 2vh;
+  }
+  .leaflet-popup-content-wrapper h2 {
+    font-size: 1.5vh;
+  }
+  .leaflet-popup-content-wrapper h3 {
+    font-size: 1.3vh;
+  }
+  .leaflet-popup-content-wrapper h4 {
+    font-size: 1.4vh;
+  }
+  .leaflet-popup-content {
+    min-width: 15rem;
+  }
+}
+.leaflet-container {
+  font: 1500px;
+}
 .sr-only {
   display: none;
 }
