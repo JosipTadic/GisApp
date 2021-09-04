@@ -49,9 +49,6 @@
     min-width: 14rem;
   }
 }
-.leaflet-container {
-  font: 1500px;
-}
 .sr-only {
   display: none;
 }

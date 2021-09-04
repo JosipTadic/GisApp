@@ -558,7 +558,7 @@ const icons: MarkerComponents[] = [
     price: "400,00 Kn",
     openHours: "Radnim danom od 7:15 do 10:00",
     driveIn: "",
-    waitTime: "	",
+    waitTime: "",
     translate: "",
     lon: 16.6531991,
     lat: 43.7033111,
@@ -787,7 +787,7 @@ const MarkerComponent = () => {
         >
           <Popup>
             <h1>🏬 {icon.header}</h1>
-            <h2>📌 {icon.address}</h2>
+            <h2>📌 Adresa: {icon.address}</h2>
             {icon.contact ? (
               <h3>
                 📞 Kontakt: <strong>{icon.contact}</strong>

@@ -10,8 +10,6 @@ import {
 } from "react-leaflet";
 import { EditControl } from "react-leaflet-draw";
 import "leaflet-draw";
-import domtoimage from "dom-to-image";
-import fileDownload from "js-file-download";
 import MarkerComponent from "./MarkerComponent";
 
 const MapComponent = () => {
@@ -30,22 +28,9 @@ const MapComponent = () => {
       "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png",
   });
 
-  var handleSaveClick = (idOfChart: string) => {
-    domtoimage // @ts-ignore
-      .toBlob(document.getElementById(idOfChart)) // @ts-ignore
-      .then(function (blob) {
-        fileDownload(blob, "fotoMap.png");
-      });
-  };
-
   return (
     <>
-      <MapContainer
-        center={position}
-        zoom={zoom}
-        scrollWheelZoom={true}
-        id="blob1"
-      >
+      <MapContainer center={position} zoom={zoom} scrollWheelZoom={true}>
         <LayersControl position="topright">
           <LayersControl.BaseLayer checked name="OpenStreetMap Classic">
             <TileLayer
@@ -110,8 +95,6 @@ const MapComponent = () => {
 
         <MarkerComponent />
       </MapContainer>
-
-      <button onClick={() => handleSaveClick("blob1")}>Download</button>
     </>
   );
 };
