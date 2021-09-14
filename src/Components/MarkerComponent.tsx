@@ -788,13 +788,7 @@ const MarkerComponent = () => {
           <Popup>
             <h1>🏬 {icon.header}</h1>
             <h2>📌 Adresa: {icon.address}</h2>
-            {icon.contact ? (
-              <h3>
-                📞 Kontakt: <strong>{icon.contact}</strong>
-              </h3>
-            ) : (
-              <div></div>
-            )}
+            {icon.contact ? <h3>📞 Kontakt: {icon.contact}</h3> : <div></div>}
             {icon.price ? <h4>🔖 Cijena: {icon.price}</h4> : <div></div>}
             {icon.openHours ? (
               <h4>⌚ Radno vrijeme: {icon.openHours}</h4>
