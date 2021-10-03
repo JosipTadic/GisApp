@@ -13,8 +13,8 @@ import "leaflet-draw";
 import MarkerComponent from "./MarkerComponent";
 
 const MapComponent = () => {
-  const position: L.LatLngExpression = [44.9275, 13.80361];
-  const zoom: number = 14;
+  const position: L.LatLngExpression = [44.9975, 14.33361];
+  const zoom: number = 9;
 
   // @ts-ignore
   delete L.Icon.Default.prototype._getIconUrl;
